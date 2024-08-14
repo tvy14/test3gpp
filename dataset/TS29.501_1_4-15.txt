@@ -1,0 +1,81 @@
+What does SBI stand for in 5GC SBI APIs?; Service Based Interface.
+What are the different levels of REST implementation in 5GC SBI APIs?; API Design Style and REST Implementation Levels.
+What is the structure of API version numbers in 5GC SBI APIs?; Defined in 4.3.1 Structure of API version numbers.
+What is the purpose of CRUD in 5GC SBI APIs?; Creating, Reading, Updating, and Deleting a Resource.
+How are custom operations handled in 5GC SBI APIs?; Defined in 4.6.1.2 Use of Custom Operations.
+What is the purpose of Subscribe/Notify communication in 5GC SBI APIs?; Management of Subscriptions and Notifications.
+What does HATEOAS stand for?; Hypermedia As The Engine Of Application State.
+What are the special provisions to support the seamless change of AMF as NF service consumer?; Section 4.6.2.4.
+What is the purpose of Error Response Status Code?; To indicate the status of the error response.
+What is the purpose of OAuth2.0 access token scopes?; To define the access rights of an access token.
+What is described in section 5.1 of the document?; Naming Conventions.
+What is the purpose of OpenAPI specification files?; To describe and document RESTful APIs.
+What is the document ETSI TS 129 501 V18.4.0 about?; It covers Error Responses, Enumerations, Formatting of structured data types, Attribute Presence Conditions, Usage of the 'tags' field, Security, Reuse of Structured Data Types, Operation identifiers, Formatting of description fields, and Requirements for secure API design.
+What are the SBA-specific requirements mentioned in the document?; SBA-specific requirements are covered in section 6.3.
+What does Annex C (Informative) cover?; Annex C covers Resource modelling, including General, Document, Collection, Store, and Custom operation.
+What does 'shall' indicate in the context of normative provisions?; A mandatory requirement to do something.
+What does 'shall not' indicate in the context of normative provisions?; An interdiction (prohibition) to do something.
+What does 'should' indicate?; A recommendation to do something.
+What does 'should not' indicate?; A recommendation not to do something.
+What does 'may' indicate?; Permission to do something.
+What does 'need not' indicate?; Permission not to do something.
+What does 'can' indicate?; That something is possible.
+What does 'cannot' indicate?; That something is impossible.
+What does 'will' indicate?; That something is certain or expected to happen as a result of action taken by an agency the behaviour of which is outside the scope of the present document.
+What does 'will not' indicate?; That something is certain or expected not to happen as a result of action taken by an agency the behaviour of which is outside the scope of the present document.
+What does 'might' indicate?; A likelihood that something will happen as a result of action taken by some agency the behaviour of which is outside the scope of the present document.
+What does 'ETSI TS 129 501 V18.4.0 (2024 - 05) 7 3GPP TS 29.501 version 18.4.0 Release 18' refer to?; It refers to a document related to 3GPP TS 29.501 version 18.4.0 Release 18.
+What does the verb 'is' indicate?; It indicates a statement of fact.
+What does the verb 'is not' indicate?; It indicates a statement of fact.
+What do the constructions 'is' and 'is not' not indicate?; They do not indicate requirements.
+What does ETSI TS 129 50 1 V18.4.0 define?; Design principles and documentation guidelines for 5GC SBI APIs.
+What should be followed when drafting the 5G System SBI Stage 3 specifications?; The principles and guidelines defined in ETSI TS 129 50 1 V18.4.0.
+What does a non-specific reference to a 3GPP document implicitly refer to?; The latest version of that document in the same Release as the present document.
+What is the purpose of IETF RFC 8259?; Defining the JavaScript Object Notation (JSON) Data Interchange Format.
+What does 3GPP TS 29.571 define?; Common Data Types for Service Based Interfaces Stage 3.
+What is the purpose of IETF RFC 7231?; Defining the Hypertext Transfer Protocol (HTTP/1.1) Semantics and Content.
+What does IETF RFC 6902 define?; JavaScript Object Notation (JSON) Patch.
+What is the purpose of IETF RFC 5789?; Defining the PATCH Method for HTTP.
+What does IETF RFC 7540 define?; Hypertext Transfer Protocol Version 2 (HTTP/2).
+What does 3GPP TS 29.510 define?; Network Function Repository Services; Stage 3.
+What is the definition of Absolute URI?; It follows generic URI syntax and consists of a hierarchical sequence of the 'scheme', 'authority', 'path' and 'query', excluding the 'fragment' component.
+What is the default value of apiRoot in 3GPP APIs?; The default apiRoot value is 'https://example.com', where 'example.com' is replaced by the operator specific FQDN.
+What is the format of API URI?; API URI has the format: '{apiRoot}/<apiName>/<apiVersion>'.
+What is the definition of Callback URI?; Callback URI follows an absolute URI syntax, excluding the 'userinfo' subcomponent of the 'authority' component and the 'query' component.
+What is the definition of Relative path after API URI?; It refers to the sequence of path segments of a resource URI that are below the API URI, constituting the resource URI when appended to the API URI of the concerned API.
+What is the status of Relative URI in SBI specifications?; Relative URI is deprecated and shall not be used in SBI specifications.
+What does the Resource URI identify?; An abstract or a physical resource.
+What is the structure of the Resource URI defined in clause 4.4.1?; Defined in clause 4.4.1.
+What does the abbreviation '5GC' stand for?; 5G Core Network.
+What does the abbreviation 'CRUD' stand for?; Create, Read, Update, Delete.
+What does the abbreviation 'HAL' stand for?; Hypertext Application Language.
+What does the abbreviation 'HATEOAS' stand for?; Hypermedia as the Engine of Application State.
+What does the abbreviation 'REST' stand for?; REpresentational State Transfer.
+What does the abbreviation 'RPC' stand for?; Remote-Procedure-Call.
+What does the abbreviation 'SBI' stand for?; Service Based Interface.
+What does the abbreviation 'YAML' stand for?; YAML Ain't Markup Language.
+What is the purpose of the forward slash character in URI syntax?; It is a delimiter which precedes an URI path component and separates a sequence of path segments.
+What is the purpose of the number sign (hash) character in URI syntax?; It is a delimiter which terminates either an URI path component, or an authority component, or a query component and starts a fragment component.
+What is the purpose of the question mark character in URI syntax?; It is a delimiter which terminates either an URI path component, or an authority component and starts a query component/parameter.
+What is the purpose of the equal sign character in URI syntax?; It is a delimiter which separates a parameter name and its value, e.g. in an URI query.
+Where are square bracket characters allowed in the URI syntax?; They enclose an IPv6 literal address.
+What do the angle bracket characters enclose in URI syntax?; A complete URI or an URI component or a subcomponent.
+What is the purpose of the semicolon character in URI syntax?; It is a delimiter which is often used to separates a parameter name and its value in a path segment.
+What is the purpose of the colon character in URI syntax?; It is a delimiter which terminates an URI scheme component, or userinfo subcomponent, or separates host subcomponent from the port subcomponent, an authority component, or a query component and starts a fragment component.
+What are the general principles for 5GC SBI APIs?; The general principles include purpose of the API, URIs of resources, supported HTTP methods, supported representations, request and response body schemas, supported response status codes, relation types supported if HATEOAS is implemented, reference to archetypes, and identifiers of optional features.
+What do the braces (curly brackets) enclose in an URI path segment?; The braces enclose a name of a variable in an URI path segment.
+What do the braces (curly brackets) enclose in a query?; The braces enclose a parameter value in a query.
+What should the normative annex for each specified service contain?; The normative annex should contain the OpenAPI definitions according to OpenAPI Specification for the service.
+What should be used as a starting point when drafting 5GC SBI API specifications?; The TS Skeleton Template provided in Annex A.
+What is the Richardson maturity model?; A framework for REST-style service operations, with standard HTTP methods, and optional HATEOAS implementation.
+What are the principles for designing a query operation API?; Use REST-style service operation with standard HTTP GET method if no input parameter is required, or if input parameters are used to identify a resource or control the content.
+What are the principles for designing a delete operation API?; Use REST-style service operation with standard HTTP DELETE method if no input parameter is required, or if input parameters are used to identify a resource or control the content.
+What is the purpose of the version control mechanism in the API?; To manage changes to an API and provide a version number that is incremented whenever changes are applied.
+What format should API version numbers follow?; At least 3 fields, following a MAJOR.MINOR.PATCH pattern according to the Semantic Versioning Specification.
+When should the 1st Field (MAJOR) of the API version number be incremented?; Only if the applied change is backward incompatible relative to the earlier, i.e. frozen version of the given OpenAPI.
+What happens to the 2nd Field (MINOR) and 3rd Field (PATCH) when the 1st Field (MAJOR) is incremented?; They shall be reset to '0'.
+What is the purpose of the 1st Field (MAJOR) in the OpenAPI versioning?; It is incremented when there are backward incompatible changes to the API after the OpenAPI freeze for a given 3GPP Release.
+When is the 2nd Field (MINOR) incremented in the OpenAPI versioning?; It is incremented only if the applied change is a backward compatible new feature relative to the earlier, i.e. frozen version of the given OpenAPI.
+What happens to the 3rd Field (PATCH) in the OpenAPI versioning when it is incremented?; It shall be reset to '0' if the applied change is a backward compatible correction relative to the earlier, i.e. frozen version of the given OpenAPI.
+What is the impact on the 4th Field (NON-FROZEN) in the OpenAPI versioning when the 3rd Field (PATCH) is incremented?; It shall be reset to 'alpha.1' if present, and this field is removed when the OpenAPI freezes.
+When is the 4th Field (NON-FROZEN) incremented in a non-frozen OpenAPI?; It shall be incremented every time any kind of changes are applied to the given non-frozen OpenAPI.
