@@ -1,0 +1,20 @@
+Question,Answer
+What status code does the ADRF respond with upon accepting the creation of a subscription?,201 Created status code
+What does the URI of the created subscription include when responded by the ADRF?,It is included in the Location header field
+How does the DCCF determine which NWDAF instances might provide the analytics data?,By invoking the Nnwdaf_EventsSubscription_Subscribe service operation
+What are the two methods for retrieving historical analytics data from the NWDAF?,Nnwdaf EventsSubscription Subscribe or Nnwdaf AnalyticsInfo Request service operations
+What status code does the NWDAF respond with upon accepting the creation of a subscription?,201 Created status code
+What does the DCCF respond with to the Ndccf_DataManagement_Subscribe service operation?,"HTTP ""201 Created"" status code with the message body containing a representation of the created subscription"
+What operation does the NWDAF invoke to notify the analytics information to the DCCF?,Nnwdaf_EventsSubscription_Notify service operation
+What status code does the DCCF respond with to the Nnwdaf_EventsSubscription_Notify service operation?,"HTTP ""204 No Content"" status code"
+"What does the DCCF do when the delivery option ""Delivery via DCCF"" is configured?",It invokes the Ndccf_DataManagement_Notify service operation to send the analytics data to all notification endpoints
+How does the NF service consumer respond to the Ndccf_DataManagement_Notify service operation?,"HTTP ""204 No Content"" status code"
+What operation does the NF service consume invoke to fetch the analytics from the DCCF?,Ndccf_DataManagement_Fetch service operation
+What status code does the NF service consumer respond with to the Ndccf_DataManagement_Fetch service operation?,HTTP 204 No Content status code
+How does the NF service consumer invoke the Ndccf_DataManagement_Unsubscribe service operation?,By sending an HTTP DELETE request message with specific Resource URI and Subscription Correlation Id
+What status code does the DCCF respond with to the Ndccf_DataManagement_Unsubscribe service operation?,HTTP 204 No Content status code
+Under what condition does the DCCF invoke the Nnwdaf_EventsSubscription_Unsubscribe service operation?,If there are no other NF service consumers subscribed to the analytics
+How does the NWDAF respond to the Nnwdaf_EventsSubscription_Unsubscribe service operation?,With HTTP 204 No Content status code upon the removal of analytics event(s) subscription
+Under what condition does the DCCF invoke the Nadrf_DataManagement_RetrievalUnSubscribe service operation?,If no other NF service consumers require historical analytics data from the ADRF
+How does the ADRF respond to the Nadrf_DataManagement_RetrievalUnSubscribe service operation?,With HTTP 204 No Content status code upon the removal of analytics data retrieval subscription
+What is the purpose of the 3GPP DCCF Adaptor (3da) Data Management service and 3GPP Consumer Adaptor (3ca) Data Management service of the Messaging Framework Adaptor Function (MFAF)?,To interact with the 3GPP Network and the Messaging Framework for analytics information delivery to the NF service consumer(s) subscribed notification endpoint(s)
